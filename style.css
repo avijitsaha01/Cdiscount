@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 /* font-family: 'Bebas Neue', cursive; */
 .header_section{
-    height: 600px;
+    min-height: 650px;
     background-color: #FFFBF0;
+    display: block;
 }
 .banner_image{
     margin-left: 10%;
@@ -61,4 +62,24 @@
 .product_price{
     color: orange;
     font-weight: bold;
+}
+.about{
+    margin-top: 150px;
+}
+.down_details{
+    float: left;
+    background-color: white;
+    margin-bottom: 25px;
+    border-radius: 15px;
+    padding: 10px 20px;
+}
+.down_custom img{
+    width: 70%;
+}
+.down_custom h3{
+    color: #363958;
+    font-weight: bold;
+}
+.down_image_custom{
+    width: 100%;
 }
