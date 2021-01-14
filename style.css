@@ -1,3 +1,30 @@
-.menu_top{
 
+.header_section{
+    height: 600px;
+    background-color: #FFFBF0;
+}
+.banner_image{
+    margin-left: 10%;
+}
+.banner_section_heading{
+    font-weight: bold;
+    font-size: 3em;
+    color: crimson;
+}
+.banner_section_heading_2{
+    font-weight: bold;
+    font-size: 3em;
+    color: gold;
+}
+.banner_section_details{
+    font-size: 1.2em;
+    font-weight: bold;
+}
+.btn-buy{
+    background-color: #96AF31;
+    width: 150px;
+    font-weight: bold;
+    color: honeydew;
+    text-align: center;
+    padding: 10px;
 }
