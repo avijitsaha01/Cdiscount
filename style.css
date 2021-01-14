@@ -72,9 +72,15 @@
     margin-bottom: 25px;
     border-radius: 15px;
     padding: 10px 20px;
+    width: 100%;
+}
+.down_custom{
+    text-align: center;
+    margin-right: 25px;
 }
 .down_custom img{
-    width: 70%;
+    width: 100px;
+    height: 95px;
 }
 .down_custom h3{
     color: #363958;
@@ -82,4 +88,14 @@
 }
 .down_image_custom{
     width: 100%;
+}
+@media screen and (min-width: 768px) {
+    .down_custom {
+      text-align: left;
+    }
+  }
+@media screen and (min-width: 992px) {
+    .down_custom {
+      text-align: left;
+    }
 }
