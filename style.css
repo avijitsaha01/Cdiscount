@@ -1,4 +1,5 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+/* font-family: 'Bebas Neue', cursive; */
 .header_section{
     height: 600px;
     background-color: #FFFBF0;
@@ -8,23 +9,56 @@
 }
 .banner_section_heading{
     font-weight: bold;
-    font-size: 3em;
+    font-size: 5em;
     color: crimson;
+    font-family: 'Bebas Neue', cursive;
 }
 .banner_section_heading_2{
     font-weight: bold;
-    font-size: 3em;
+    font-size: 5em;
     color: gold;
+    font-family: 'Bebas Neue', cursive;
 }
 .banner_section_details{
     font-size: 1.2em;
     font-weight: bold;
 }
 .btn-buy{
-    background-color: #96AF31;
-    width: 150px;
+    padding: 10px 30px;
+    background-color: #8AA520;
     font-weight: bold;
-    color: honeydew;
-    text-align: center;
-    padding: 10px;
+}
+.price{
+    float: left;
+    color: orange;
+    font-weight: bold;
+}
+.buy_button{
+    float: right;
+}
+.buy_button button{
+    padding: 10px 30px;
+    background-color: #8AA520;
+    font-weight: bold;
+}
+.product_img{
+    background-color: #F1F1F1;
+    border-radius: 20px;
+}
+.cus_round{
+    border-radius: 20px;
+}
+.product_section_heading{
+    font-size: 2.5em;
+    font-family: 'Bebas Neue', cursive;
+    color: #363958;
+}
+.product_title{
+    color: #363958;
+    font-weight: bold;
+    font-size: 1.4em;
+}
+.product_price{
+    color: orange;
+    font-weight: bold;
 }
