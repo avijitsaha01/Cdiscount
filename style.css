@@ -1,5 +1,10 @@
+/* This stylesheet contains custom style for Cdiscount webpages */
+
+/* adding google font via import method */
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
-/* font-family: 'Bebas Neue', cursive; */
+
+
+/* custom style for header section start here*/
 .header_section{
     min-height: 650px;
     background-color: #FFFBF0;
@@ -11,7 +16,7 @@
 .banner_section_heading{
     font-weight: bold;
     font-size: 5em;
-    color: crimson;
+    color: #dc143c;
     font-family: 'Bebas Neue', cursive;
 }
 .banner_section_heading_2{
@@ -28,7 +33,14 @@
     padding: 10px 30px;
     background-color: #8AA520;
     font-weight: bold;
+    color: white;
 }
+.btn-buy:hover{
+    color: white;
+}
+/* custom style for header section end here*/
+
+/* custom style for product section start here */
 .price{
     float: left;
     color: orange;
@@ -41,6 +53,10 @@
     padding: 10px 30px;
     background-color: #8AA520;
     font-weight: bold;
+    color: white;
+}
+.buy_button button:hover{
+    color: white;
 }
 .product_img{
     background-color: #F1F1F1;
@@ -63,10 +79,13 @@
     color: orange;
     font-weight: bold;
 }
+/* custom style for product section end here */
+
+/* custom style for about section start here */
 .about{
     margin-top: 150px;
 }
-.down_details{
+.about_details{
     float: left;
     background-color: white;
     margin-bottom: 25px;
@@ -74,21 +93,24 @@
     padding: 10px 20px;
     width: 100%;
 }
-.down_custom{
+.about_custom{
     text-align: center;
     margin-right: 25px;
 }
-.down_custom img{
+.about_custom img{
     width: 100px;
     height: 95px;
 }
-.down_custom h3{
+.about_custom h3{
     color: #363958;
     font-weight: bold;
 }
-.down_image_custom{
+.about_image_custom{
     width: 100%;
 }
+/* custom style for about section end here */
+
+/* custom style for signup section start here */
 .sign_up_heading{
     color: #363958;
 }
@@ -111,6 +133,9 @@
     background-color: #FFFBF0;
     padding-bottom: 100px;
 }
+/* custom style for signup section end here */
+
+/* custom style for footer/copyright section start here */
 .footer{
     width: 100%;
     text-align: center;
@@ -121,14 +146,18 @@
     padding: 25px;
     margin-bottom: 0;
 }
+/* custom style for footer/copyright section end here */
+
+/* media quiry for about section start here */
 @media screen and (min-width: 768px) {
-    .down_custom {
+    .about_custom {
       text-align: left;
     }
   }
 @media screen and (max-width: 992px) {
-    .down_image_custom{
+    .about_image_custom{
       margin-bottom: 100px;
     }
 }
+/* media quiry for about section end here */
 
