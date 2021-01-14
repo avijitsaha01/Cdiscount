@@ -148,7 +148,15 @@
 }
 /* custom style for footer/copyright section end here */
 
-/* media quiry for about section start here */
+/* media quiry for product and about section start here */
+@media screen and (max-width: 768px) {
+    .women_jacket{
+        text-align: center;
+    }
+    .men_jacket{
+        text-align: center;
+    }
+}
 @media screen and (min-width: 768px) {
     .about_custom {
       text-align: left;
